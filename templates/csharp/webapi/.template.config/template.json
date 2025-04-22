@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Fallenwood",
+  "classifications": [
+    "Common",
+    "Console",
+    "WebApi"
+  ],
+  "identity": "Net.Fallenwood.CSharpWebApi",
+  "name": "Fallenwood Webapi Application",
+  "shortName": "fw.webapi",
+  "sourceName": "FallenwoodTemplate",
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net8.0",
+          "description": "Target net8.0"
+        },
+        {
+          "choice": "net9.0",
+          "description": "Target net9.0"
+        }
+      ],
+      "replaces": "FrameworkParameter",
+      "defaultValue": "net9.0"
+    },
+    "Sdk": {
+      "type": "parameter",
+      "description": "The SDK to use for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "8.0.408",
+          "description": "Use Net8.0 SDK"
+        },
+        {
+          "choice": "9.0.203",
+          "description": "Use Net9.0 SDK"
+        }
+      ],
+      "replaces": "SdkParameter",
+      "defaultValue": "9.0.203"
+    }
+  },
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  }
+}

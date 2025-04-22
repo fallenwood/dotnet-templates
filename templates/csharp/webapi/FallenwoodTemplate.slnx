@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FallenwoodTemplate/FallenwoodTemplate.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FallenwoodTemplate.UnitTests/FallenwoodTemplate.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".dockerignore" />
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+</Solution>
